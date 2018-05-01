@@ -22,7 +22,7 @@ function pieChart(diameter, data) {
     lastAngle += radians(angles[i]);
   }
   //firefly
-  fill(255,255,127,200); //white, semi-transparent
+  fill(68, 223, 41); //white, semi-transparent
   ellipse(mouseX+5,mouseY+50,10,10); // follows the mouse, 10px dia
   //sparkly sky (points are redrawn randomly on the canvas everytime we go through the draw function
   stroke(255);
@@ -49,7 +49,7 @@ function draw() {
 
     background(237, 55, 55);
   pieChart(300, angles);
-   fill(255,255,0); //white, 200 level of transparency (min = 0, max = 255)
+   fill(10, 81, 197); //white, 200 level of transparency (min = 0, max = 255)
   noStroke();
   textSize(30);
   textAlign(LEFT);
